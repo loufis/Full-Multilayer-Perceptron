@@ -9,6 +9,7 @@ using namespace std;
 
 int class1Count = 0, class2Count = 0;
 bool usePolar = false;
+int newlyAddedvar = 0;
 
 // ret[i][0] = theta , ret[i][1] = ro
 vector< vector<float> > cartesianToPolar(const vector< vector<float> >& input)
